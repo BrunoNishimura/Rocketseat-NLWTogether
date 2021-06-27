@@ -1,0 +1,28 @@
+{
+  "name": "Rocketseat-NLWTogether",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido no NLW6 edição Together, na trilha Discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoNishimura/Rocketseat-NLWTogether.git"
+  },
+  "keywords": [],
+  "author": "Bruno Yuji Nishimura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoNishimura/Rocketseat-NLWTogether/issues"
+  },
+  "homepage": "https://github.com/BrunoNishimura/Rocketseat-NLWTogether#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
